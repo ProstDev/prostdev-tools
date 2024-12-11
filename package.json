@@ -1,6 +1,7 @@
 {
   "name": "prostdev-tools",
   "displayName": "ProstDev Tools",
+  "publisher": "ProstDev",
   "description": "Experimental tools and utilities to ease up your MuleSoft/DataWeave programming!",
   "version": "0.0.1",
   "repository": {
