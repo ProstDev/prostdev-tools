@@ -16,7 +16,7 @@ export function activate(context: vscode.ExtensionContext) {
 	const disposable = vscode.commands.registerCommand('prostdev-tools.dwcli', () => {
 		// The code you place here will be executed every time your command is executed
 		// Display a message box to the user
-		vscode.window.showInformationMessage('Running with the DW CLI...');
+		// vscode.window.showInformationMessage('Running with the DW CLI...');
 
 		var path = require("path");
 		var fs = require("fs");
@@ -53,7 +53,7 @@ export function activate(context: vscode.ExtensionContext) {
 		terminal.show();
 		terminal.sendText("dw run -f " + filePath + inputCommand);
 
-		vscode.window.showInformationMessage('DW CLI finished running!');
+		// vscode.window.showInformationMessage('DW CLI finished running!');
 	});
 
 	context.subscriptions.push(disposable);

@@ -30,10 +30,3 @@ The use of the [DataWeave 2.0 extension for VS Code](https://marketplace.visuals
 ## Extension Settings
 
 TBD - will add settings to set up the input payload. Right now the extension will look for the input at `${workingDir}/src/test/resources/${fileName}/Playground/inputs/` (the directory used by the DataWeave extension)
-
-## Release Notes
-
-### 0.0.1
-
-Very first release, still experimental!
-
